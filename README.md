@@ -9,7 +9,7 @@ Setup:
 
 ```
 npm install
-npx @11ty/eleventy --serve --input=site
+npx @11ty/eleventy --serve --input=./site
 open http://localhost:8080/index.html
 ```
 
@@ -18,7 +18,7 @@ open http://localhost:8080/index.html
 Target [github pages](https://pages.github.com)
 
 Steps:
- * `npx @11ty/eleventy --input=site --output=.`
+ * `npx @11ty/eleventy --input=./site --output=./docs`
  * `git add index.html`
  * `git commit -m 'New wersion with feature XYZ'`
  * `git push`
