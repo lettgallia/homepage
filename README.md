@@ -9,10 +9,17 @@ Setup:
 
 ```
 npm install
-npx @11ty/eleventy --serve
+npx @11ty/eleventy --serve --input=site
 open http://localhost:8080/index.html
 ```
 
-Deployment:
-[github pages](https://pages.github.com)
+### Deployment:
 
+Target [github pages](https://pages.github.com)
+
+Steps:
+ * `npx @11ty/eleventy --input=site --output=.`
+ * `git add index.html`
+ * `git commit -m 'New wersion with feature XYZ'`
+ * `git push`
+ * New version should be live in matter of minutes
