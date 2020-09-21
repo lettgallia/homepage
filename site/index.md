@@ -1,3 +1,7 @@
+---
+layout: base-layout.njk
+---
+
 # Lettgallia.lv
 PER ASPERA AD ASTRA LABOR ET FIDELITAS
 
