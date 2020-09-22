@@ -461,6 +461,18 @@ body.active .mscroll {
 	text-align: center;
 }
 /* Partners style ends here */
+/* Gallery style begins here */
+#Gallery {
+	padding: 60px 0 90px 0;
+	background-color: #414143;
+  text-align: center;
+}
+#Gallery h2 {
+	color: #fff;
+	font: 68px/125% 'Futura PT book';
+	margin-bottom: 20px;
+}
+/* Gallery style ends here */
 /* Footer */
 #Contact {
 	text-align: center;
