@@ -8,7 +8,16 @@ module.exports = function(eleventyConfig) {
     "jpg",
     "gif",
     "ico",
-    "otf"
+    "otf",
+    "html"
   ]);
   eleventyConfig.addPassthroughCopy("site/scripts");
+
+  return {
+    dir: {
+      includes: "_includes",
+      input: "site",
+      output: "docs"
+    }
+  };
 };
