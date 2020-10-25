@@ -273,82 +273,82 @@ body.active .mscroll {
 	text-align: center;
 }
 /* Our Digital services style ends here */
-/* Our work begin */
-#OurWork {
+/* Officials begin */
+#Officials {
   background-color: #414143;
   padding: 60px 0;
 }
-#OurWork h2 {
+#Officials h2 {
 	color: #fff;
 	text-align: center;
 	font: 68px/125% 'Futura PT book';
 	margin-bottom: 40px;
 }
-#OurWork p {
+#Officials p {
   color: #fff
 }
-#OurWork .grey-box {
+#Officials .grey-box {
   background-color: #4f4f4f;
   padding: 20px;
   height: 300px;
   position: relative;
 }
-/* Our work end */
-/* Our blog begin */
-#OurBlog {
+/* Officials end */
+/* History begin */
+#History {
 	padding: 60px 0;
 	background-color: #ececec;
 }
-#OurBlog h2 {
+#History h2 {
 	color: #000;
 	font: 68px/125% 'Futura PT book';
 	margin-bottom: 20px;
 	text-align: center;
 }
-#OurBlog p {
+#History p {
 	color: #000;
 	font: 18px/125% 'Futura PT book';
 	margin-bottom: 20px;
 	text-align: center;
 }
-#OurBlog .blog-wrap {
+#History .blog-wrap {
 	position: relative;
 	height: 500px;
 	margin: 60px 0;
 }
-#OurBlog .each-block {
+#History .each-block {
     position: absolute;
     width: 420px;
 }
-#OurBlog .each-block.one {
+#History .each-block.one {
     left: 0;
     top: 0;
 }
-#OurBlog .each-block.two {
+#History .each-block.two {
     top: 40%;
     right: 0;
 }
-#OurBlog .each-block.three {
+#History .each-block.three {
     top: 78%;
     left: 0;
 }
-#OurBlog .each-block .icon {
+#History .each-block .icon {
   float: left;
 }
-#OurBlog .blog-wrap .blog-intro {
+#History .blog-wrap .blog-intro {
     float: left;
     width: 80%;
 }
-#OurBlog .blog-wrap .blog-intro h3 {
+#History .blog-wrap .blog-intro h3 {
     font: 700 24px/100% 'Futura PT book';
     margin: 0 0 6px;
 }
-#OurBlog .blog-intro p {
+#History .blog-intro p {
     text-align: left;
     padding-left: 45px;
     position: relative;
 }
-#OurBlog .blog-intro p:before {
+#History .blog-intro p:before {
     content: "";
     width: 36px;
     height: 2px;
@@ -357,7 +357,7 @@ body.active .mscroll {
     left: 0;
     top: 6px;
 }
-#OurBlog .blog-wrap:before {
+#History .blog-wrap:before {
     content: "";
     width: 2px;
     height: 100%;
@@ -366,7 +366,7 @@ body.active .mscroll {
     left: 50%;
     transform: translateX(-50%);
 }
-#OurBlog .each-block:before {
+#History .each-block:before {
     content: "";
     width: 14px;
     height: 14px;
@@ -377,14 +377,14 @@ body.active .mscroll {
     top: 50%;
     transform: translateY(-50%);
 }
-#OurBlog .each-block.two:before {
+#History .each-block.two:before {
     right: auto;
     left: -34%;
 }
-#OurBlog .learnmore {
+#History .learnmore {
 	text-align: center;
 }
-#OurBlog .learnmore a {
+#History .learnmore a {
     background-color: #e6275c;
     color: #fff;
     padding: 20px 30px;
@@ -393,14 +393,14 @@ body.active .mscroll {
     border-radius: 5px;
     width: 240px;
 }
-#OurBlog .learnmore a span {
+#History .learnmore a span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-#OurBlog .learnmore a span:after {
+#History .learnmore a span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -409,15 +409,15 @@ body.active .mscroll {
   transition: 0.5s;
 }
 
-#OurBlog .learnmore a:hover span {
+#History .learnmore a:hover span {
   padding-right: 25px;
 }
 
-#OurBlog .learnmore a:hover span:after {
+#History .learnmore a:hover span:after {
   opacity: 1;
   right: 0;
 }
-/* Our blog end */
+/* History end */
 /* Testimonials style begins here */
 #Testimonials {
 	padding: 60px 0 90px 0;
