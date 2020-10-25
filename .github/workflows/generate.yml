@@ -1,0 +1,24 @@
+name: Generate Site
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: '14'
+      - run: npm install
+      - name: Cleanup old assets
+        run: |
+          rm -fr docs/css
+          rm -fr docs/images
+      - name: Regenerate the site
+        run: npx @11ty/eleventy
+      - name: Commit and push!
+        env:
+          GITHUB_TOKEN: ${{ secrets.gh_token }}
+        run: python work.py
