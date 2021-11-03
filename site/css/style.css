@@ -370,7 +370,7 @@ body.active .mscroll {
     content: "";
     width: 14px;
     height: 14px;
-    background-color: #e6275c;
+    background-color: #6E9351;
     position: absolute;
     border-radius: 50%;
     right: -34%;
@@ -385,7 +385,7 @@ body.active .mscroll {
 	text-align: center;
 }
 #History .learnmore a {
-    background-color: #e6275c;
+    background-color: #6E9351;
     color: #fff;
     padding: 20px 30px;
     font: 700 24px/100% 'Futura PT book';
@@ -484,7 +484,7 @@ body.active .mscroll {
 }
 #Contact a.email-btn {
     color: #fff;
-    background-color: #f46674;
+    background-color: #6E9351;
     padding: 12px 30px;
     display: inline-block;
     border-radius: 6px;
